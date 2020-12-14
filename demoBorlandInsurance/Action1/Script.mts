@@ -1,5 +1,4 @@
-﻿ @@ hightlight id_;_Browser("InsuranceWeb: Home").Page("InsuranceWeb: Sign up").Link("Home")_;_script infofile_;_ZIP::ssf44.xml_;_
-With Browser("InsuranceWeb: Home")
+﻿With Browser("InsuranceWeb: Home")
 	.Page("InsuranceWeb: Home").Image("Signup").Click 44,7 @@ hightlight id_;_Browser("InsuranceWeb: Home").Page("InsuranceWeb: Home").Image("Signup")_;_script infofile_;_ZIP::ssf45.xml_;_
 	With .Page("InsuranceWeb: Sign up")
 		.WebEdit("signup:fname").Set "john" @@ hightlight id_;_Browser("InsuranceWeb: Home").Page("InsuranceWeb: Sign up").WebEdit("signup:fname")_;_script infofile_;_ZIP::ssf46.xml_;_
@@ -21,6 +20,6 @@ With Browser("InsuranceWeb: Home")
 		.WebEdit("signup:zip").Set "14290" @@ hightlight id_;_Browser("InsuranceWeb: Home").Page("InsuranceWeb: Sign up").WebEdit("signup:zip")_;_script infofile_;_ZIP::ssf61.xml_;_
 		.WebEdit("signup:password").SetSecure "5f90f51e6f218cc4a49b2621" @@ hightlight id_;_Browser("InsuranceWeb: Home").Page("InsuranceWeb: Sign up").WebEdit("signup:password")_;_script infofile_;_ZIP::ssf62.xml_;_
 		.Link("Home").Click @@ hightlight id_;_Browser("InsuranceWeb: Home").Page("InsuranceWeb: Sign up").Link("Home")_;_script infofile_;_ZIP::ssf63.xml_;_
-
+	
 	End With
 End With
